@@ -96,6 +96,13 @@ header.active h1 {
     font-size: 17px;
 }
 
+.main-table .row .column {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .main-table .row:nth-child(2n+1) {
     background-color: rgb(66, 128, 42);
 }
